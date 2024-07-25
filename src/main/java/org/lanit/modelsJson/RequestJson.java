@@ -2,7 +2,7 @@ package org.lanit.modelsJson;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class PostRequest{
+public class RequestJson {
 
 	@JsonProperty("snils")
 	private String snils;
