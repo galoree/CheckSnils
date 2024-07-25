@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonPropertyOrder({"message", "snils"})
-public class PostResponse{
+public class ResponseJson {
 
 	@JsonProperty("message")
 	private String message;
