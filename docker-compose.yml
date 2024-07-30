@@ -1,0 +1,11 @@
+version: '3'
+services:
+  snils_mock:
+    image: snils_mock
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    ports:
+      - "8082:8082"
