@@ -14,6 +14,7 @@
   "message": "success",
   "snils": "153-217-659 51"
 }
+
 2) В случае невалидного снилса вернется ответ с ошибкой:
 Запрос: POST http://localhost:8082/snils
 {
@@ -24,6 +25,7 @@
   "message": "Error: uncorrected snils",
   "snils": "153-217-659 53"
 }
+
 3) При передаче некорректного JSON сообщения ожидается следующий результат:
 Запрос: POST http://localhost:8082/snils
 {
